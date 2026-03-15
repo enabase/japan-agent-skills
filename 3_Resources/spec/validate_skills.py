@@ -40,7 +40,8 @@ def validate_skill(skill_dir):
     results["passed"].append("YAML frontmatter が存在する")
     
     frontmatter = fm_match.group(1)
-    body = content[fm_match.end():]
+    end_idx = int(fm_match.end()) # type: ignore
+    body = content[end_idx:]
     
     # Validate name field
     name_match = re.search(r'^name:\s*(.+)$', frontmatter, re.MULTILINE)
