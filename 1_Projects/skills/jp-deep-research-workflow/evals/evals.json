@@ -1,0 +1,17 @@
+{
+  "skill_name": "jp-deep-research-workflow",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Deep Researchワークフローを使って、下請法チェッカーのスキルを作りたいです。",
+      "expected_output": "Step 1を実行。下請法に関するDeep Research用プロンプト（資本金区分の表、11の禁止事項、フリーランス新法との違い等を指定）を作成し、ユーザーに出力を促すプロンプトを提示する。",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "Deep Researchの結果が出ました。ここに貼り付けます：【下請法の資本金区分マトリクス...】",
+      "expected_output": "Step 3を実行。長文のリサーチ結果を解析し、SKILL.mdの仕様設計策定に入る。長すぎるマトリクス表は `references/` ディレクトリに分割する提案を行う。",
+      "files": []
+    }
+  ]
+}

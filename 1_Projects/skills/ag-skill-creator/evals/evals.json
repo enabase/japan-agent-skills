@@ -1,0 +1,17 @@
+{
+  "skill_name": "ag-skill-creator",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "新しいスキル「jp-tax-calculator」を作りたい。日本の消費税と所得税を計算する機能。ターゲットはフリーランス。",
+      "expected_output": "Step 1として要件定義のための質問を返す。その後、1_Projects/skills/jp-tax-calculator フォルダを作成し、正しいフロントマターを持つSKILL.mdを生成する。バリデーションスクリプトを実行して結果を提示する。",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "作成したスキルのバリデーションを実行して",
+      "expected_output": "python 3_Resources/spec/validate_skills.py 1_Projects/skills を実行し、全項目がパスしたか確認してユーザーに報告する",
+      "files": []
+    }
+  ]
+}
