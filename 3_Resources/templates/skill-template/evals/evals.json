@@ -1,0 +1,17 @@
+{
+  "skill_name": "template-skill",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "テスト用プロンプトをここに記述",
+      "expected_output": "期待される出力の説明をここに記述",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "2つ目のテスト用プロンプト",
+      "expected_output": "期待される出力の説明",
+      "files": []
+    }
+  ]
+}
