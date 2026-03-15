@@ -23,3 +23,7 @@ venv/
 # Temp
 tmp/
 .tmp/
+
+# Meta Skills (Private Tools)
+1_Projects/skills/ag-skill-creator/
+1_Projects/skills/jp-deep-research-workflow/
