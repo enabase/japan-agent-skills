@@ -1,0 +1,17 @@
+{
+  "skill_name": "jp-saas-automation",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Googleフォームで受け取った問い合わせ内容を、自動でSlackの#問い合わせチャンネルに通知する仕組みを作りたいです。Google Workspaceを使っていて、なるべく無料でやりたいです。JavaScriptは少しわかります。",
+      "expected_output": "Step 1でソース=Googleフォーム、転送先=Slack、トリガー=イベント型、予算=無料、技術レベル=JavaScript少しOKと判定。Step 2でGAS（無料・Google連携最強）を選定。Step 3で「自動化指示書」を出力：Slack Incoming Webhook設定手順、GASコード（onFormSubmit関数・Slack Webhook呼び出し・PropertiesServiceでURL管理・try-catchエラーハンドリング・エラー時バックアップメール通知）、テスト方法（正常系: フォーム送信→Slack通知確認、エラー系: Webhook URL無効化→エラーメール確認）、メンテナンスガイド。Step 4でセキュリティチェック：APIキーがPropertiesServiceで管理されていること、個人情報の有無確認を出力。",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "kintoneのステータスが「承認済み」に変更されたらChatworkの特定グループに通知を飛ばしたいのですが、プログラミングは全くできません。freeeも使っています。月額予算は5,000円以内でお願いします。",
+      "expected_output": "Step 1でソース=kintone（イベント型: レコード更新）、転送先=Chatwork、技術レベル=非エンジニア、予算=5,000円以内と判定。Step 2で日本SaaS（kintone/Chatwork/freee）中心かつ非エンジニアのため、Yoom（パーソナルプラン¥2,400/月で予算内）を最推奨。Step 3でYoomのフローボット設定手順（kintone Webhook設定→Yoomトリガー→フィルター「ステータス=承認済み」→Chatwork通知アクション）をノーコードの詳細ステップで出力。Step 4で退職者リスク（共有アカウントでYoom接続を推奨）と個人情報チェック。",
+      "files": []
+    }
+  ]
+}
